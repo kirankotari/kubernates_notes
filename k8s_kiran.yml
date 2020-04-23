@@ -1,0 +1,9 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: kiran_pod1
+spec:
+  containers:
+    - name: kiran_c1
+      image: alpine
+      command: ["/bin/sh", "-c", "ping fb.com"]
